@@ -1,5 +1,47 @@
+document {
+  align-content: center;
+}
+
+
+
 body {
   width: 100%;
   height: 100%;
   margin: 0;
+  
 }
+
+header {
+  text-align: center;
+  
+}
+
+nav > a {
+text-align: center;
+padding-left: 10px;
+padding-right: 10px;
+background-color: silver;
+}
+
+#featured-property > p {
+  width: 800px;
+  text-align: center;
+}
+
+#featured-property {
+  justify-content: center;
+}
+figure > img{
+  display: flex;
+  justify-content: center;
+}
+
+figure {
+  justify-content: center;
+}
+#details > div {
+  float: left;
+  background-color: red;
+  width: 25%;
+}
+
